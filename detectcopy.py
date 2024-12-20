@@ -28,7 +28,19 @@ Usage - formats:
                                  yolov5s_edgetpu.tflite     # TensorFlow Edge TPU
                                  yolov5s_paddle_model       # PaddlePaddle
 """
+"""
 
+
+
+
+
+
+
+
+This code only works with an Arduino and you need a video of flies going around. https://drive.google.com/file/d/1e9_NVEQzA5yfKAbz5CShXsWbMhsuEM-D/view?usp=sharing. This is the video for the flies if you use:
+python detect.py - -weights .runs/train/exp3/weights/best.pt     - - source 1
+but make the source the video file
+""" 
 import argparse
 import csv
 import os
