@@ -1,0 +1,13 @@
+train: ../Robowdata/train/images
+val: ../Robowdata/valid/images
+test: ../Robowdata/test/images
+
+nc: 3
+names: ['apply', 'fly', 'fly-in-motion']
+
+roboflow:
+  workspace: fly-data
+  project: flies-tracking-third-try
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/fly-data/flies-tracking-third-try/dataset/1

@@ -1,0 +1,13 @@
+train: ../dataset/train/images
+val: ../dataset/valid/images
+test: ../dataset/test/images
+
+nc: 2
+names: ['flies', 'flies-moving']
+
+roboflow:
+  workspace: fly-data
+  project: fliestracking
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/fly-data/fliestracking/dataset/1
